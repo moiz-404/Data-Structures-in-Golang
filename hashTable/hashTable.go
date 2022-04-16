@@ -9,7 +9,7 @@ const ArraySize = 7
 
 //HashTable wiil hold an array
 type HashTable struct {
-	array [ArraySize]*bucket
+	array [ArraySize]*Bucket
 }
 
 //Bucket is a linklist in each slot of the hash table array
